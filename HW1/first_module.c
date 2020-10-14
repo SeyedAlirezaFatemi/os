@@ -16,7 +16,7 @@ static int __init init(void)
 	struct tm time_tm;
 
 	do_gettimeofday(&time);
-	time_sec = time.tv_sec + 18000;
+	time_sec = time.tv_sec + 25200;
 	sec = time_sec % 60;
 	tmp1 = time_sec / 60;
 	min = tmp1 % 60;
